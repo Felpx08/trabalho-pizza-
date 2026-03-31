@@ -1,0 +1,22 @@
+{
+  "name": "sistema_pizzaria",
+  "version": "2.0.0",
+  "description": "Sistema de pizzaria com SQLite (sql.js)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node seed.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "jsonwebtoken": "^9.0.3",
+    "sql.js": "^1.14.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
